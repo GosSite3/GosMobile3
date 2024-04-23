@@ -35,7 +35,7 @@ export default function Intro(){
         });
     }
     const getHotLineNumber = async () => {
-        const result = await fetch("https://curious-pinafore-goat.cyclic.app/hotline", {
+        const result = await fetch("https://gosserver3-production.up.railway.app/hotline", {
             method: "GET",
             headers: defaultHeaders,
         });

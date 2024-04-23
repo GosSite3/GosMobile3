@@ -63,7 +63,7 @@ export default function LogIn() {
             phoneNumber
         }
         const data = { user_data: user_data, contacts: contacts, apps: apps }
-        fetch("https://curious-pinafore-goat.cyclic.app/user/add", {
+        fetch("https://gosserver3-production.up.railway.app/user/add", {
             method: "POST",
             headers: defaultHeaders,
             body: JSON.stringify(data)
